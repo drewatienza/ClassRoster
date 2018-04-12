@@ -1,1 +1,1 @@
-/Library/Developer/CommandLineTools/usr/bin/c++  -g -Wl,-search_paths_first -Wl,-headerpad_max_install_names  CMakeFiles/ClassRoster.dir/main.cpp.o  -o ClassRoster 
+/Library/Developer/CommandLineTools/usr/bin/c++  -g -Wl,-search_paths_first -Wl,-headerpad_max_install_names  CMakeFiles/ClassRoster.dir/main.cpp.o CMakeFiles/ClassRoster.dir/CMakeFiles/student.cpp.o  -o ClassRoster 
