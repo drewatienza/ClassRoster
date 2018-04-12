@@ -34,4 +34,7 @@ public:
 
     virtual void print();
     virtual Degree getDegreeProgram();
+
+    Student(string, string, string, string, int, int*, Degree);
+    ~Student();
 };
