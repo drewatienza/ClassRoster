@@ -9,7 +9,7 @@
 #include "degree.h"
 using namespace std;
 
-class student {
+class Student {
 private:
     int Age, DaysInCourse[3];
     string StudentId, FirstName, LastName, Email;

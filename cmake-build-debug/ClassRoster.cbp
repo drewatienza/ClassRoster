@@ -82,6 +82,42 @@
 				</MakeCommands>
 			</Target>
 		</Build>
+		<Unit filename="/Users/drewatienza/Desktop/C++/ClassRoster/degree.h">
+			<Option target="ClassRoster"/>
+		</Unit>
+		<Unit filename="/Users/drewatienza/Desktop/C++/ClassRoster/main.cpp">
+			<Option target="ClassRoster"/>
+		</Unit>
+		<Unit filename="/Users/drewatienza/Desktop/C++/ClassRoster/networkStudent.cpp">
+			<Option target="ClassRoster"/>
+		</Unit>
+		<Unit filename="/Users/drewatienza/Desktop/C++/ClassRoster/networkStudent.h">
+			<Option target="ClassRoster"/>
+		</Unit>
+		<Unit filename="/Users/drewatienza/Desktop/C++/ClassRoster/roster.cpp">
+			<Option target="ClassRoster"/>
+		</Unit>
+		<Unit filename="/Users/drewatienza/Desktop/C++/ClassRoster/roster.h">
+			<Option target="ClassRoster"/>
+		</Unit>
+		<Unit filename="/Users/drewatienza/Desktop/C++/ClassRoster/securityStudent.cpp">
+			<Option target="ClassRoster"/>
+		</Unit>
+		<Unit filename="/Users/drewatienza/Desktop/C++/ClassRoster/securityStudent.h">
+			<Option target="ClassRoster"/>
+		</Unit>
+		<Unit filename="/Users/drewatienza/Desktop/C++/ClassRoster/softwareStudent.cpp">
+			<Option target="ClassRoster"/>
+		</Unit>
+		<Unit filename="/Users/drewatienza/Desktop/C++/ClassRoster/softwareStudent.h">
+			<Option target="ClassRoster"/>
+		</Unit>
+		<Unit filename="/Users/drewatienza/Desktop/C++/ClassRoster/student.cpp">
+			<Option target="ClassRoster"/>
+		</Unit>
+		<Unit filename="/Users/drewatienza/Desktop/C++/ClassRoster/student.h">
+			<Option target="ClassRoster"/>
+		</Unit>
 		<Unit filename="/Users/drewatienza/Desktop/C++/ClassRoster/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>
 		</Unit>

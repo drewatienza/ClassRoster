@@ -57,7 +57,184 @@ include CMakeFiles/ClassRoster.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/ClassRoster.dir/flags.make
 
-CMakeFiles/ClassRoster.dir/requires:
+CMakeFiles/ClassRoster.dir/main.cpp.o: CMakeFiles/ClassRoster.dir/flags.make
+CMakeFiles/ClassRoster.dir/main.cpp.o: ../main.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/drewatienza/Desktop/C++/ClassRoster/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/ClassRoster.dir/main.cpp.o"
+	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ClassRoster.dir/main.cpp.o -c /Users/drewatienza/Desktop/C++/ClassRoster/main.cpp
+
+CMakeFiles/ClassRoster.dir/main.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ClassRoster.dir/main.cpp.i"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/drewatienza/Desktop/C++/ClassRoster/main.cpp > CMakeFiles/ClassRoster.dir/main.cpp.i
+
+CMakeFiles/ClassRoster.dir/main.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ClassRoster.dir/main.cpp.s"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/drewatienza/Desktop/C++/ClassRoster/main.cpp -o CMakeFiles/ClassRoster.dir/main.cpp.s
+
+CMakeFiles/ClassRoster.dir/main.cpp.o.requires:
+
+.PHONY : CMakeFiles/ClassRoster.dir/main.cpp.o.requires
+
+CMakeFiles/ClassRoster.dir/main.cpp.o.provides: CMakeFiles/ClassRoster.dir/main.cpp.o.requires
+	$(MAKE) -f CMakeFiles/ClassRoster.dir/build.make CMakeFiles/ClassRoster.dir/main.cpp.o.provides.build
+.PHONY : CMakeFiles/ClassRoster.dir/main.cpp.o.provides
+
+CMakeFiles/ClassRoster.dir/main.cpp.o.provides.build: CMakeFiles/ClassRoster.dir/main.cpp.o
+
+
+CMakeFiles/ClassRoster.dir/student.cpp.o: CMakeFiles/ClassRoster.dir/flags.make
+CMakeFiles/ClassRoster.dir/student.cpp.o: ../student.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/drewatienza/Desktop/C++/ClassRoster/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/ClassRoster.dir/student.cpp.o"
+	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ClassRoster.dir/student.cpp.o -c /Users/drewatienza/Desktop/C++/ClassRoster/student.cpp
+
+CMakeFiles/ClassRoster.dir/student.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ClassRoster.dir/student.cpp.i"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/drewatienza/Desktop/C++/ClassRoster/student.cpp > CMakeFiles/ClassRoster.dir/student.cpp.i
+
+CMakeFiles/ClassRoster.dir/student.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ClassRoster.dir/student.cpp.s"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/drewatienza/Desktop/C++/ClassRoster/student.cpp -o CMakeFiles/ClassRoster.dir/student.cpp.s
+
+CMakeFiles/ClassRoster.dir/student.cpp.o.requires:
+
+.PHONY : CMakeFiles/ClassRoster.dir/student.cpp.o.requires
+
+CMakeFiles/ClassRoster.dir/student.cpp.o.provides: CMakeFiles/ClassRoster.dir/student.cpp.o.requires
+	$(MAKE) -f CMakeFiles/ClassRoster.dir/build.make CMakeFiles/ClassRoster.dir/student.cpp.o.provides.build
+.PHONY : CMakeFiles/ClassRoster.dir/student.cpp.o.provides
+
+CMakeFiles/ClassRoster.dir/student.cpp.o.provides.build: CMakeFiles/ClassRoster.dir/student.cpp.o
+
+
+CMakeFiles/ClassRoster.dir/networkStudent.cpp.o: CMakeFiles/ClassRoster.dir/flags.make
+CMakeFiles/ClassRoster.dir/networkStudent.cpp.o: ../networkStudent.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/drewatienza/Desktop/C++/ClassRoster/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/ClassRoster.dir/networkStudent.cpp.o"
+	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ClassRoster.dir/networkStudent.cpp.o -c /Users/drewatienza/Desktop/C++/ClassRoster/networkStudent.cpp
+
+CMakeFiles/ClassRoster.dir/networkStudent.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ClassRoster.dir/networkStudent.cpp.i"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/drewatienza/Desktop/C++/ClassRoster/networkStudent.cpp > CMakeFiles/ClassRoster.dir/networkStudent.cpp.i
+
+CMakeFiles/ClassRoster.dir/networkStudent.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ClassRoster.dir/networkStudent.cpp.s"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/drewatienza/Desktop/C++/ClassRoster/networkStudent.cpp -o CMakeFiles/ClassRoster.dir/networkStudent.cpp.s
+
+CMakeFiles/ClassRoster.dir/networkStudent.cpp.o.requires:
+
+.PHONY : CMakeFiles/ClassRoster.dir/networkStudent.cpp.o.requires
+
+CMakeFiles/ClassRoster.dir/networkStudent.cpp.o.provides: CMakeFiles/ClassRoster.dir/networkStudent.cpp.o.requires
+	$(MAKE) -f CMakeFiles/ClassRoster.dir/build.make CMakeFiles/ClassRoster.dir/networkStudent.cpp.o.provides.build
+.PHONY : CMakeFiles/ClassRoster.dir/networkStudent.cpp.o.provides
+
+CMakeFiles/ClassRoster.dir/networkStudent.cpp.o.provides.build: CMakeFiles/ClassRoster.dir/networkStudent.cpp.o
+
+
+CMakeFiles/ClassRoster.dir/securityStudent.cpp.o: CMakeFiles/ClassRoster.dir/flags.make
+CMakeFiles/ClassRoster.dir/securityStudent.cpp.o: ../securityStudent.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/drewatienza/Desktop/C++/ClassRoster/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/ClassRoster.dir/securityStudent.cpp.o"
+	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ClassRoster.dir/securityStudent.cpp.o -c /Users/drewatienza/Desktop/C++/ClassRoster/securityStudent.cpp
+
+CMakeFiles/ClassRoster.dir/securityStudent.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ClassRoster.dir/securityStudent.cpp.i"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/drewatienza/Desktop/C++/ClassRoster/securityStudent.cpp > CMakeFiles/ClassRoster.dir/securityStudent.cpp.i
+
+CMakeFiles/ClassRoster.dir/securityStudent.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ClassRoster.dir/securityStudent.cpp.s"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/drewatienza/Desktop/C++/ClassRoster/securityStudent.cpp -o CMakeFiles/ClassRoster.dir/securityStudent.cpp.s
+
+CMakeFiles/ClassRoster.dir/securityStudent.cpp.o.requires:
+
+.PHONY : CMakeFiles/ClassRoster.dir/securityStudent.cpp.o.requires
+
+CMakeFiles/ClassRoster.dir/securityStudent.cpp.o.provides: CMakeFiles/ClassRoster.dir/securityStudent.cpp.o.requires
+	$(MAKE) -f CMakeFiles/ClassRoster.dir/build.make CMakeFiles/ClassRoster.dir/securityStudent.cpp.o.provides.build
+.PHONY : CMakeFiles/ClassRoster.dir/securityStudent.cpp.o.provides
+
+CMakeFiles/ClassRoster.dir/securityStudent.cpp.o.provides.build: CMakeFiles/ClassRoster.dir/securityStudent.cpp.o
+
+
+CMakeFiles/ClassRoster.dir/softwareStudent.cpp.o: CMakeFiles/ClassRoster.dir/flags.make
+CMakeFiles/ClassRoster.dir/softwareStudent.cpp.o: ../softwareStudent.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/drewatienza/Desktop/C++/ClassRoster/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/ClassRoster.dir/softwareStudent.cpp.o"
+	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ClassRoster.dir/softwareStudent.cpp.o -c /Users/drewatienza/Desktop/C++/ClassRoster/softwareStudent.cpp
+
+CMakeFiles/ClassRoster.dir/softwareStudent.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ClassRoster.dir/softwareStudent.cpp.i"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/drewatienza/Desktop/C++/ClassRoster/softwareStudent.cpp > CMakeFiles/ClassRoster.dir/softwareStudent.cpp.i
+
+CMakeFiles/ClassRoster.dir/softwareStudent.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ClassRoster.dir/softwareStudent.cpp.s"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/drewatienza/Desktop/C++/ClassRoster/softwareStudent.cpp -o CMakeFiles/ClassRoster.dir/softwareStudent.cpp.s
+
+CMakeFiles/ClassRoster.dir/softwareStudent.cpp.o.requires:
+
+.PHONY : CMakeFiles/ClassRoster.dir/softwareStudent.cpp.o.requires
+
+CMakeFiles/ClassRoster.dir/softwareStudent.cpp.o.provides: CMakeFiles/ClassRoster.dir/softwareStudent.cpp.o.requires
+	$(MAKE) -f CMakeFiles/ClassRoster.dir/build.make CMakeFiles/ClassRoster.dir/softwareStudent.cpp.o.provides.build
+.PHONY : CMakeFiles/ClassRoster.dir/softwareStudent.cpp.o.provides
+
+CMakeFiles/ClassRoster.dir/softwareStudent.cpp.o.provides.build: CMakeFiles/ClassRoster.dir/softwareStudent.cpp.o
+
+
+CMakeFiles/ClassRoster.dir/roster.cpp.o: CMakeFiles/ClassRoster.dir/flags.make
+CMakeFiles/ClassRoster.dir/roster.cpp.o: ../roster.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/drewatienza/Desktop/C++/ClassRoster/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/ClassRoster.dir/roster.cpp.o"
+	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ClassRoster.dir/roster.cpp.o -c /Users/drewatienza/Desktop/C++/ClassRoster/roster.cpp
+
+CMakeFiles/ClassRoster.dir/roster.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ClassRoster.dir/roster.cpp.i"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/drewatienza/Desktop/C++/ClassRoster/roster.cpp > CMakeFiles/ClassRoster.dir/roster.cpp.i
+
+CMakeFiles/ClassRoster.dir/roster.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ClassRoster.dir/roster.cpp.s"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/drewatienza/Desktop/C++/ClassRoster/roster.cpp -o CMakeFiles/ClassRoster.dir/roster.cpp.s
+
+CMakeFiles/ClassRoster.dir/roster.cpp.o.requires:
+
+.PHONY : CMakeFiles/ClassRoster.dir/roster.cpp.o.requires
+
+CMakeFiles/ClassRoster.dir/roster.cpp.o.provides: CMakeFiles/ClassRoster.dir/roster.cpp.o.requires
+	$(MAKE) -f CMakeFiles/ClassRoster.dir/build.make CMakeFiles/ClassRoster.dir/roster.cpp.o.provides.build
+.PHONY : CMakeFiles/ClassRoster.dir/roster.cpp.o.provides
+
+CMakeFiles/ClassRoster.dir/roster.cpp.o.provides.build: CMakeFiles/ClassRoster.dir/roster.cpp.o
+
+
+# Object files for target ClassRoster
+ClassRoster_OBJECTS = \
+"CMakeFiles/ClassRoster.dir/main.cpp.o" \
+"CMakeFiles/ClassRoster.dir/student.cpp.o" \
+"CMakeFiles/ClassRoster.dir/networkStudent.cpp.o" \
+"CMakeFiles/ClassRoster.dir/securityStudent.cpp.o" \
+"CMakeFiles/ClassRoster.dir/softwareStudent.cpp.o" \
+"CMakeFiles/ClassRoster.dir/roster.cpp.o"
+
+# External object files for target ClassRoster
+ClassRoster_EXTERNAL_OBJECTS =
+
+ClassRoster: CMakeFiles/ClassRoster.dir/main.cpp.o
+ClassRoster: CMakeFiles/ClassRoster.dir/student.cpp.o
+ClassRoster: CMakeFiles/ClassRoster.dir/networkStudent.cpp.o
+ClassRoster: CMakeFiles/ClassRoster.dir/securityStudent.cpp.o
+ClassRoster: CMakeFiles/ClassRoster.dir/softwareStudent.cpp.o
+ClassRoster: CMakeFiles/ClassRoster.dir/roster.cpp.o
+ClassRoster: CMakeFiles/ClassRoster.dir/build.make
+ClassRoster: CMakeFiles/ClassRoster.dir/link.txt
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/drewatienza/Desktop/C++/ClassRoster/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Linking CXX executable ClassRoster"
+	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/ClassRoster.dir/link.txt --verbose=$(VERBOSE)
+
+# Rule to build all files generated by this target.
+CMakeFiles/ClassRoster.dir/build: ClassRoster
+
+.PHONY : CMakeFiles/ClassRoster.dir/build
+
+CMakeFiles/ClassRoster.dir/requires: CMakeFiles/ClassRoster.dir/main.cpp.o.requires
+CMakeFiles/ClassRoster.dir/requires: CMakeFiles/ClassRoster.dir/student.cpp.o.requires
+CMakeFiles/ClassRoster.dir/requires: CMakeFiles/ClassRoster.dir/networkStudent.cpp.o.requires
+CMakeFiles/ClassRoster.dir/requires: CMakeFiles/ClassRoster.dir/securityStudent.cpp.o.requires
+CMakeFiles/ClassRoster.dir/requires: CMakeFiles/ClassRoster.dir/softwareStudent.cpp.o.requires
+CMakeFiles/ClassRoster.dir/requires: CMakeFiles/ClassRoster.dir/roster.cpp.o.requires
 
 .PHONY : CMakeFiles/ClassRoster.dir/requires
 

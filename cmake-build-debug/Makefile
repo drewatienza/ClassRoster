@@ -123,6 +123,168 @@ ClassRoster/fast:
 	$(MAKE) -f CMakeFiles/ClassRoster.dir/build.make CMakeFiles/ClassRoster.dir/build
 .PHONY : ClassRoster/fast
 
+main.o: main.cpp.o
+
+.PHONY : main.o
+
+# target to build an object file
+main.cpp.o:
+	$(MAKE) -f CMakeFiles/ClassRoster.dir/build.make CMakeFiles/ClassRoster.dir/main.cpp.o
+.PHONY : main.cpp.o
+
+main.i: main.cpp.i
+
+.PHONY : main.i
+
+# target to preprocess a source file
+main.cpp.i:
+	$(MAKE) -f CMakeFiles/ClassRoster.dir/build.make CMakeFiles/ClassRoster.dir/main.cpp.i
+.PHONY : main.cpp.i
+
+main.s: main.cpp.s
+
+.PHONY : main.s
+
+# target to generate assembly for a file
+main.cpp.s:
+	$(MAKE) -f CMakeFiles/ClassRoster.dir/build.make CMakeFiles/ClassRoster.dir/main.cpp.s
+.PHONY : main.cpp.s
+
+networkStudent.o: networkStudent.cpp.o
+
+.PHONY : networkStudent.o
+
+# target to build an object file
+networkStudent.cpp.o:
+	$(MAKE) -f CMakeFiles/ClassRoster.dir/build.make CMakeFiles/ClassRoster.dir/networkStudent.cpp.o
+.PHONY : networkStudent.cpp.o
+
+networkStudent.i: networkStudent.cpp.i
+
+.PHONY : networkStudent.i
+
+# target to preprocess a source file
+networkStudent.cpp.i:
+	$(MAKE) -f CMakeFiles/ClassRoster.dir/build.make CMakeFiles/ClassRoster.dir/networkStudent.cpp.i
+.PHONY : networkStudent.cpp.i
+
+networkStudent.s: networkStudent.cpp.s
+
+.PHONY : networkStudent.s
+
+# target to generate assembly for a file
+networkStudent.cpp.s:
+	$(MAKE) -f CMakeFiles/ClassRoster.dir/build.make CMakeFiles/ClassRoster.dir/networkStudent.cpp.s
+.PHONY : networkStudent.cpp.s
+
+roster.o: roster.cpp.o
+
+.PHONY : roster.o
+
+# target to build an object file
+roster.cpp.o:
+	$(MAKE) -f CMakeFiles/ClassRoster.dir/build.make CMakeFiles/ClassRoster.dir/roster.cpp.o
+.PHONY : roster.cpp.o
+
+roster.i: roster.cpp.i
+
+.PHONY : roster.i
+
+# target to preprocess a source file
+roster.cpp.i:
+	$(MAKE) -f CMakeFiles/ClassRoster.dir/build.make CMakeFiles/ClassRoster.dir/roster.cpp.i
+.PHONY : roster.cpp.i
+
+roster.s: roster.cpp.s
+
+.PHONY : roster.s
+
+# target to generate assembly for a file
+roster.cpp.s:
+	$(MAKE) -f CMakeFiles/ClassRoster.dir/build.make CMakeFiles/ClassRoster.dir/roster.cpp.s
+.PHONY : roster.cpp.s
+
+securityStudent.o: securityStudent.cpp.o
+
+.PHONY : securityStudent.o
+
+# target to build an object file
+securityStudent.cpp.o:
+	$(MAKE) -f CMakeFiles/ClassRoster.dir/build.make CMakeFiles/ClassRoster.dir/securityStudent.cpp.o
+.PHONY : securityStudent.cpp.o
+
+securityStudent.i: securityStudent.cpp.i
+
+.PHONY : securityStudent.i
+
+# target to preprocess a source file
+securityStudent.cpp.i:
+	$(MAKE) -f CMakeFiles/ClassRoster.dir/build.make CMakeFiles/ClassRoster.dir/securityStudent.cpp.i
+.PHONY : securityStudent.cpp.i
+
+securityStudent.s: securityStudent.cpp.s
+
+.PHONY : securityStudent.s
+
+# target to generate assembly for a file
+securityStudent.cpp.s:
+	$(MAKE) -f CMakeFiles/ClassRoster.dir/build.make CMakeFiles/ClassRoster.dir/securityStudent.cpp.s
+.PHONY : securityStudent.cpp.s
+
+softwareStudent.o: softwareStudent.cpp.o
+
+.PHONY : softwareStudent.o
+
+# target to build an object file
+softwareStudent.cpp.o:
+	$(MAKE) -f CMakeFiles/ClassRoster.dir/build.make CMakeFiles/ClassRoster.dir/softwareStudent.cpp.o
+.PHONY : softwareStudent.cpp.o
+
+softwareStudent.i: softwareStudent.cpp.i
+
+.PHONY : softwareStudent.i
+
+# target to preprocess a source file
+softwareStudent.cpp.i:
+	$(MAKE) -f CMakeFiles/ClassRoster.dir/build.make CMakeFiles/ClassRoster.dir/softwareStudent.cpp.i
+.PHONY : softwareStudent.cpp.i
+
+softwareStudent.s: softwareStudent.cpp.s
+
+.PHONY : softwareStudent.s
+
+# target to generate assembly for a file
+softwareStudent.cpp.s:
+	$(MAKE) -f CMakeFiles/ClassRoster.dir/build.make CMakeFiles/ClassRoster.dir/softwareStudent.cpp.s
+.PHONY : softwareStudent.cpp.s
+
+student.o: student.cpp.o
+
+.PHONY : student.o
+
+# target to build an object file
+student.cpp.o:
+	$(MAKE) -f CMakeFiles/ClassRoster.dir/build.make CMakeFiles/ClassRoster.dir/student.cpp.o
+.PHONY : student.cpp.o
+
+student.i: student.cpp.i
+
+.PHONY : student.i
+
+# target to preprocess a source file
+student.cpp.i:
+	$(MAKE) -f CMakeFiles/ClassRoster.dir/build.make CMakeFiles/ClassRoster.dir/student.cpp.i
+.PHONY : student.cpp.i
+
+student.s: student.cpp.s
+
+.PHONY : student.s
+
+# target to generate assembly for a file
+student.cpp.s:
+	$(MAKE) -f CMakeFiles/ClassRoster.dir/build.make CMakeFiles/ClassRoster.dir/student.cpp.s
+.PHONY : student.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -132,6 +294,24 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
 	@echo "... ClassRoster"
+	@echo "... main.o"
+	@echo "... main.i"
+	@echo "... main.s"
+	@echo "... networkStudent.o"
+	@echo "... networkStudent.i"
+	@echo "... networkStudent.s"
+	@echo "... roster.o"
+	@echo "... roster.i"
+	@echo "... roster.s"
+	@echo "... securityStudent.o"
+	@echo "... securityStudent.i"
+	@echo "... securityStudent.s"
+	@echo "... softwareStudent.o"
+	@echo "... softwareStudent.i"
+	@echo "... softwareStudent.s"
+	@echo "... student.o"
+	@echo "... student.i"
+	@echo "... student.s"
 .PHONY : help
 
 
