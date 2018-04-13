@@ -2,13 +2,15 @@
 // Created by Drew Atienza on 4/12/18.
 //
 
-#ifndef CLASSROSTER_SECURITYSTUDENT_H
-#define CLASSROSTER_SECURITYSTUDENT_H
+#pragma once
 
+#include "student.h"
 
-class securityStudent {
-
+class SecurityStudent : public Student
+{
+private:
+    Degree DegreeType = SECURITY;
+public:
+    virtual Degree getDegreeProgram();
+    using Student::Student;
 };
-
-
-#endif //CLASSROSTER_SECURITYSTUDENT_H

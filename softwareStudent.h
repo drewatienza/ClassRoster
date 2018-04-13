@@ -2,13 +2,15 @@
 // Created by Drew Atienza on 4/12/18.
 //
 
-#ifndef CLASSROSTER_SOFTWARESTUDENT_H
-#define CLASSROSTER_SOFTWARESTUDENT_H
+#pragma once
 
+#include "student.h"
 
-class softwareStudent {
-
+class SoftwareStudent : public Student
+{
+private:
+    Degree DegreeType = SOFTWARE;
+public:
+    virtual Degree getDegreeProgram();
+    using Student::Student;
 };
-
-
-#endif //CLASSROSTER_SOFTWARESTUDENT_H

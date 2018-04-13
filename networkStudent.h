@@ -2,13 +2,15 @@
 // Created by Drew Atienza on 4/12/18.
 //
 
-#ifndef CLASSROSTER_NETWORKSTUDENT_H
-#define CLASSROSTER_NETWORKSTUDENT_H
+#pragma once
 
+#include "student.h"
 
-class networkStudent {
-
+class NetworkStudent : public Student
+{
+private:
+    Degree DegreeType = NETWORKING;
+public:
+    virtual Degree getDegreeProgram();
+    using Student::Student;
 };
-
-
-#endif //CLASSROSTER_NETWORKSTUDENT_H
