@@ -2,13 +2,34 @@
 // Created by Drew Atienza on 4/12/18.
 //
 
-#ifndef CLASSROSTER_ROSTER_H
-#define CLASSROSTER_ROSTER_H
+#pragma once
 
+#include <iostream>
+#include <string>
+#include "securityStudent.h"
+#include "networkStudent.h"
+#include "softwareStudent.h"
 
-class roster {
+class Roster {
+public:
+    Student * classRosterArray[5] =
+            {
+                    nullptr,
+                    nullptr,
+                    nullptr,
+                    nullptr,
+                    nullptr
+            };
 
+    void add(
+            string studentID,
+            string firstName,
+            string lastName,
+            string emailAddress,
+            int age,
+            int daysInCourse1,
+            int daysInCourse2,
+            int daysInCourse3,
+            Degree degreeProgram;
+    );
 };
-
-
-#endif //CLASSROSTER_ROSTER_H
