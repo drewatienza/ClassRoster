@@ -91,3 +91,20 @@ void Roster::add(
         }
     }
 }
+
+void Roster::remove(string studentID) {
+    bool findId = false;
+    for(int i = 0; i < sizeof(classRosterArray) / sizeof(classRosterArray[i]); i++) {
+        if(classRosterArray[i] != nullptr) {
+            if(classRosterArray[i] -> getStudentId() == studentID) {
+                classRosterArray[i] = nullptr;
+                findId = true;
+            }
+        }
+    }
+    if(findId == true) {
+        cout << "Student ID " << studentID << " has now been removed." << endl;
+    } else {
+        cout << "Student ID " << studentID << " cannot be removed because that student ID does not exist." << endl;
+    }
+}

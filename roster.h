@@ -30,6 +30,7 @@ public:
             int daysInCourse1,
             int daysInCourse2,
             int daysInCourse3,
-            Degree degreeProgram;
+            Degree degreeProgram
     );
+    void remove(string studentID);
 };
