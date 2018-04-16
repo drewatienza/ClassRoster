@@ -132,3 +132,24 @@ void Roster::printDaysInCourse(string studentID) {
         }
     }
 }
+
+void Roster::printInvalidEmail() {
+    for(int i = 0; i < sizeof(classRosterArray) / sizeof(classRosterArray[i]); i++) {
+        string checkEmail = classRosterArray[i] -> getEmail();
+
+        size_t at = checkEmail.find('@');
+        size_t space = checkEmail.find(' ');
+        if(at != string::npos) {
+            size_t dot = checkEmail.find('.', at + 1);
+            if(dot != string::npos) {
+                if(space != string::npos) {
+                    cout << checkEmail << " is invalid.  Email address cannot have a space between characters." << endl;
+                }
+            } else {
+                cout << checkEmail << " is invalid.  Email address is missing . symbol after the @ sign." << endl;
+            }
+        } else {
+            cout << checkEmail << " is invalid.  Email address is missing @ symbol." << endl;
+        }
+    }
+}

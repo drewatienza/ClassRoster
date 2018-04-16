@@ -35,4 +35,5 @@ public:
     void remove(string studentID);
     void printAll();
     void printDaysInCourse(string studentID);
+    void printInvalidEmail();
 };
