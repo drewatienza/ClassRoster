@@ -33,4 +33,5 @@ public:
             Degree degreeProgram
     );
     void remove(string studentID);
+    void printAll();
 };

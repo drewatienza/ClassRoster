@@ -108,3 +108,9 @@ void Roster::remove(string studentID) {
         cout << "Student ID " << studentID << " cannot be removed because that student ID does not exist." << endl;
     }
 }
+
+void Roster::printAll() {
+    for(int i = 0; i < sizeof(classRosterArray) / sizeof(classRosterArray[i]); i++) {
+        classRosterArray[i] -> print();
+    }
+}

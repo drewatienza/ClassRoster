@@ -75,3 +75,24 @@ Student::Student(
 Student::~Student()
 {
 }
+
+void Student::print()
+{
+    cout << getStudentId() << "\t";
+    cout << "First Name: " << getFirstName() << "\t";
+    cout << "Last Name: " << getLastName() << "\t";
+    cout << "Age: " << getAge() << "\t";
+
+    int* daysInCourse = getDaysInCourse();
+    cout << "Days in Course: {" << daysInCourse[0] <<", " << daysInCourse[1] << ", " << daysInCourse[2] << "\t";
+
+    cout <<  "Degree Program: ";
+    if(getDegreeProgram() == 0) {
+        cout << "Security";
+    } else if(getDegreeProgram() == 1) {
+        cout << "Networking";
+    } else {
+        cout << "Software";
+    }
+    cout << endl;
+};
