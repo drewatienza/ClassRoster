@@ -114,3 +114,21 @@ void Roster::printAll() {
         classRosterArray[i] -> print();
     }
 }
+
+void Roster::printDaysInCourse(string studentID) {
+    int totalDays = 0;
+    for(int i = 0; i < sizeof(classRosterArray) / sizeof(classRosterArray[i]); i++) {
+        if(classRosterArray[i] != nullptr) {
+            if(classRosterArray[i] -> getStudentId() == studentID) {
+                int* daysInCourse = classRosterArray[i] -> getDaysInCourse();
+                for(int j = 0; j < 3; j++) {
+                    totalDays = totalDays + daysInCourse[j];
+                }
+                int averageDays = totalDays/3;
+
+                cout << "Student " << classRosterArray[i] -> getStudentId() << " has spent a total of " << totalDays
+                     << " days in his/her courses averaging " << averageDays << " days per course." << endl;
+            }
+        }
+    }
+}
