@@ -3,7 +3,7 @@ project(ClassRoster)
 
 set(CMAKE_CXX_STANDARD 11)
 
-add_executable(ClassRoster main.cpp degree.h
+add_executable(ClassRoster degree.h
         student.cpp student.h
         networkStudent.cpp networkStudent.h
         securityStudent.cpp securityStudent.h
