@@ -41,6 +41,18 @@ int main() {
                 studentDegree = SOFTWARE;
             }
         }
+
+        classRoster.add(
+                insert[0],
+                insert[1],
+                insert[2],
+                insert[3],
+                std::stoi(insert[4]),
+                std::stoi(insert[5]),
+                std::stoi(insert[6]),
+                std::stoi(insert[7]),
+                studentDegree
+        );
     }
 }
 
