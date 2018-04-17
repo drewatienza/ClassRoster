@@ -9,7 +9,11 @@
 using namespace std;
 
 int main() {
-
+    cout << "WGU C867 Scripting and Programming - Applications" << endl;
+    cout << "Programming Language Used: C++" << endl;
+    cout << "Student ID: 000818483" << endl;
+    cout << "Andrew Atienza" << endl;
+    cout << endl;
 
     Roster classRoster;
 
@@ -54,6 +58,25 @@ int main() {
                 studentDegree
         );
     }
+
+    classRoster.printAll();
+    cout << endl;
+
+    classRoster.printInvalidEmail();
+    cout << endl;
+
+    for(int i = 0; i < sizeof(classRoster.classRosterArray) / sizeof(classRoster.classRosterArray[i]); i++) {
+        classRoster.printDaysInCourse(classRoster.classRosterArray[i] -> getStudentId());
+    }
+    cout << endl;
+
+    classRoster.printByDegreeProgram(SOFTWARE);
+    cout << endl;
+
+    classRoster.remove("A3");
+    cout << endl;
+    classRoster.remove("A3");
+    cout << endl;
 }
 
 void Roster::add(
