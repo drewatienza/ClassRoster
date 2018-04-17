@@ -46,7 +46,7 @@ void Student::setAge(int age) {
 }
 void Student::setDaysInCourse(int * daysInCourse) {
     for(int i = 0; i < 3; i++) {
-        DaysInCourse[i] = daysInCourse[i]
+        DaysInCourse[i] = daysInCourse[i];
     }
 }
 void Student::setDegreeType(Degree degreeType) {

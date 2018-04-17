@@ -85,9 +85,6 @@
 		<Unit filename="/Users/drewatienza/Desktop/C++/ClassRoster/degree.h">
 			<Option target="ClassRoster"/>
 		</Unit>
-		<Unit filename="/Users/drewatienza/Desktop/C++/ClassRoster/main.cpp">
-			<Option target="ClassRoster"/>
-		</Unit>
 		<Unit filename="/Users/drewatienza/Desktop/C++/ClassRoster/networkStudent.cpp">
 			<Option target="ClassRoster"/>
 		</Unit>

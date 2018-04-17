@@ -1,5 +1,4 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/ClassRoster.dir/main.cpp.o"
   "CMakeFiles/ClassRoster.dir/student.cpp.o"
   "CMakeFiles/ClassRoster.dir/networkStudent.cpp.o"
   "CMakeFiles/ClassRoster.dir/securityStudent.cpp.o"

@@ -4,7 +4,6 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/Users/drewatienza/Desktop/C++/ClassRoster/main.cpp" "/Users/drewatienza/Desktop/C++/ClassRoster/cmake-build-debug/CMakeFiles/ClassRoster.dir/main.cpp.o"
   "/Users/drewatienza/Desktop/C++/ClassRoster/networkStudent.cpp" "/Users/drewatienza/Desktop/C++/ClassRoster/cmake-build-debug/CMakeFiles/ClassRoster.dir/networkStudent.cpp.o"
   "/Users/drewatienza/Desktop/C++/ClassRoster/roster.cpp" "/Users/drewatienza/Desktop/C++/ClassRoster/cmake-build-debug/CMakeFiles/ClassRoster.dir/roster.cpp.o"
   "/Users/drewatienza/Desktop/C++/ClassRoster/securityStudent.cpp" "/Users/drewatienza/Desktop/C++/ClassRoster/cmake-build-debug/CMakeFiles/ClassRoster.dir/securityStudent.cpp.o"
