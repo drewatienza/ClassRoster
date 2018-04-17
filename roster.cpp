@@ -153,3 +153,11 @@ void Roster::printInvalidEmail() {
         }
     }
 }
+
+void Roster::printByDegreeProgram(int degreeProgram) {
+    for(int i = 0; i < sizeof(classRosterArray) / sizeof(classRosterArray[i]); i++) {
+        if(classRosterArray[i] -> getDegreeProgram() == degreeProgram) {
+            classRosterArray[i] -> print();
+        }
+    }
+}

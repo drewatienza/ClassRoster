@@ -36,4 +36,5 @@ public:
     void printAll();
     void printDaysInCourse(string studentID);
     void printInvalidEmail();
+    void printByDegreeProgram(int degreeProgram);
 };
